@@ -6,5 +6,3 @@ Topics
 - Arrays
 - Srings
 - Nested loops  
-
-Thank you!
