@@ -14,11 +14,11 @@ int main(void)
 }
 
 /**
- * sum - adds two numbers
- * @a: first number
- * @b: second number
+ * sum - prints two numbers
+ * @a: first mandatory argument
+ * @b: second mandatory argument
  *
- * Return: the sum of the two numbers
+ * Return: Always 0
  */
 int sum(int a, int b, ...)
 {
