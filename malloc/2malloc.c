@@ -17,19 +17,19 @@ int main(void)
 
 	if (ptr == NULL)
 	{
-	printf("memory was not allocated\n");
+	printf("Memory was not allocated\n");
 	exit(1);
 	}
 
-	printf("memory was allocated\n");
+	printf("Memory was allocated\n");
 	for (i = 0; i < n; i++)
 	{
-		printf("enter the value of the interger: ");
+		printf("Enter the value of the interger: ");
 		scanf("%d", (ptr + i));
 	}
 	for (i = 0; i < n; i++)
 	{
-	printf("the address is %p and the value is %d\n", (ptr + i), *(ptr + i));
+	printf("The address is %p and the value is %d\n", (ptr + i), *(ptr + i));
 	}
 	return (0);
 }
