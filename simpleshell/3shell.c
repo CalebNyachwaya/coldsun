@@ -10,6 +10,7 @@
  *
  * Return: Always 0
  */
+
 int main()
 {
 	char *str = NULL;
