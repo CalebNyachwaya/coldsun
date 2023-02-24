@@ -6,3 +6,4 @@ This repository contains random exercises and experiments based on what we learn
 - Arrays
 - Srings
 - Nested loops  
+- test
