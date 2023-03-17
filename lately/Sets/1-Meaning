@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+
+fruits = {"mango", "guava", "apple", "lemon"}
+print(fruits)
+
+#sets remove duplicates
+fruitss = {"mango", "guava", "mango", "lemon", "lemon"}
+print("\n",fruitss)
