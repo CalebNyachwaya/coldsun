@@ -1,10 +1,6 @@
 #include <stdio.h>
 
-int sum(int i, int j)
-{
-	return(i + j);
-}
-
+int sum(int i, int j);
 
 int main()
 {	
@@ -13,4 +9,9 @@ int main()
 
 	result = sum(k, p);
 	printf("%d\n", result);
+}
+
+int sum(int i, int j)
+{
+	return(i + j);
 }
