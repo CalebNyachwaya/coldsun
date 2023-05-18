@@ -8,6 +8,8 @@ int main(void)
 	for (i = 0; i < 4; i++)
 	{
 		printf("%d\n", Alist[i]);
+		printf("Address of %d is %p\n\n", Alist[i], &Alist[i]);
 	}
+	printf("The base address is %p\n", Alist + 1);
 	return (0);
 }
