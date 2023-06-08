@@ -1,0 +1,11 @@
+from simple import div
+"""
+>>> div(20, 2)
+10
+
+>>> div(100,2)
+50
+
+"""
+import doctest
+doctest.testfile("doccte.txt", globs={"div" : div})
