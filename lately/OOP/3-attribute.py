@@ -1,6 +1,6 @@
 class Student:
 	def __init__(self):
-		self.name = "Caleb"	
+		self.name = "Caleb"
 
 std1 = Student()
 std2 = Student()
