@@ -15,7 +15,7 @@ int main(void)
 
 	printf("Base Address of the Array:\n");
 	printf("Address: %p\n", &a[0]);
-	printf("Address: %p\n", a);
+	printf("Address: %p\n\n", a);
 
 	printf("Address of Elements:\n");
 	printf("Address of a[1]: %p\n", &a[1]);
@@ -24,11 +24,9 @@ int main(void)
 	printf("Address of a[2]: %p\n", &a[2]);
 	printf("Address of a[2]: %p\n\n", a + 2);
 
-
 	printf("Value of the first Element:\n");
 	printf("Value: %d\n", *a);
-	printf("Value: %d\n", a[0]);
-
+	printf("Value: %d\n\n", a[0]);
 
 	printf("Element values:\n");
 	printf("Value: %d\n", a[1]);
